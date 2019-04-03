@@ -3,26 +3,31 @@
 
  
 #index{
-    background-image: url(/img/astronomy-constellation-dark-1743375.jpg);
+    background-image: url(../img/astronomy-constellation-dark-1743375.jpg);
     background-size: 100% 180%;
     background-repeat: no-repeat;
     color:white;
     height: 80vh;
     margin-top: 20vh;
 }
-#index navbar{
-    opacity: .5;
+#img-tag{
+    background-image: url(../img/demo.png);
+    width :100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 body{
     background-color: lightskyblue;
     opacity: 1;
+    z-index: -5;
 }
 .navbar{
     background-color: #000000;
     border:1px solid #000000;
 }
 #about,#contact,#skills{
-    height: 100vh;
+    height: 100%;
 }
 #about h1 p{
     
@@ -52,4 +57,16 @@ body{
      left: 0;
      right: 0;
      margin: 0;
+ }
+
+.jumbotron{
+    background-image: url(../img/denise-jans-1203943-unsplash.jpg);
+    background-size: 100% 100%;
+    color: beige;
+}
+
+ @media screen and (min-width:992px){
+     #about,#contact{
+         height: 100vh;
+     }
  }
