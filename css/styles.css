@@ -3,9 +3,15 @@
 
  
 #index{
-    background-image: url(/img/free-nature-stock-762054-unsplash.jpg);
-    background-size: 100% 2000px;
+    background-image: url(/img/astronomy-constellation-dark-1743375.jpg);
+    background-size: 100% 180%;
     background-repeat: no-repeat;
+    color:white;
+    height: 80vh;
+    margin-top: 20vh;
+}
+#index navbar{
+    opacity: .5;
 }
 body{
     background-color: lightskyblue;
@@ -18,7 +24,7 @@ body{
 #about,#contact,#skills{
     height: 100vh;
 }
-#about h1,p{
+#about h1 p{
     
     color: #000000;
 }
