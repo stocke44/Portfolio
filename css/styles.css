@@ -6,7 +6,7 @@
     background-image: url(../img/astronomy-constellation-dark-1743375.jpg);
     background-size: 100% 180%;
     background-repeat: no-repeat;
-    color:white;
+    color:#FFFFFF;
     height: 80vh;
     margin-top: 20vh;
 }
@@ -18,19 +18,34 @@
     background-repeat: no-repeat;
 }
 body{
-    background-color: lightskyblue;
-    opacity: 1;
-    z-index: -5;
+    background-color: #5F9EA0;
+    color: #FFFFFF;
+}
+.navbar-nav{
+    color: #000000;
 }
 .navbar{
-    background-color: #000000;
-    border:1px solid #000000;
+    color: #000000;
+    background-color: transparent;
+    border:1px solid transparent;
 }
 #about,#contact,#skills{
     height: 100%;
 }
 #about h1 p{
     
+    color: #000000;
+}
+.fa-facebook-square{
+    color: #4267b2;
+}
+.fa-twitter-square{
+    color: #38A1F3;
+}
+.panel-body, .panel-default>.panel-heading{
+    background-color: #F0FFFF;
+}
+.fa-github-square,.panel-body{
     color: #000000;
 }
 
