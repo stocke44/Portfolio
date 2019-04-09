@@ -56,18 +56,7 @@ body{
    list-style-type:none;
 }
 
-/* #contact{
-    height: 700px;
-    width: 100%;
-    padding: 0;
-}
-#contact img{
-    height: 300px;
-    width: 100%
-} */
- /* .area{
-     resize: none;
- } */
+
  .footer{
      position: relative;
      bottom: 0;
@@ -75,7 +64,7 @@ body{
      right: 0;
      margin: 0;
  }
-
+.th
 .jumbotron{
     background-image: url(../img/denise-jans-1203943-unsplash.jpg);
     background-size: 100% 100%;
@@ -83,7 +72,43 @@ body{
 }
 
  @media screen and (min-width:992px){
-     #about,#contact{
+     #about,#contact,{
          height: 100vh;
      }
  }
+.thumb{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px;
+}
+.emg{
+    background-image: url(../img/restaurant-demo.png);
+    background-size: cover;
+    height: 214px;
+    width: auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.emg2{
+    background-image: url(../img/pet-demo.png);
+}
+.emg3{
+    background-image: url(../img/first.png);
+}
+.pic{
+    z-index: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.hov{
+    z-index: 2;
+    
+}
+
+.btn-primary,.btn-default,.caption{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
