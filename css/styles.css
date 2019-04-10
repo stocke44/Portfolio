@@ -1,22 +1,6 @@
-/* About Me Section */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
-
- 
-#index{
-    background-image: url(../img/astronomy-constellation-dark-1743375.jpg);
-    background-size: 100% 180%;
-    background-repeat: no-repeat;
-    color:#FFFFFF;
-    height: 80vh;
-    margin-top: 20vh;
-}
-#img-tag{
-    background-image: url(../img/demo.png);
-    width :100%;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+/* Global */
 body{
     background-color: #5F9EA0;
     color: #FFFFFF;
@@ -31,7 +15,29 @@ body{
 }
 #about,#contact,#skills{
     height: 100%;
+} 
+.footer{
+     position: relative;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: 0;
+ } 
+ @media screen and (min-width:992px){
+     #about,#contact,#project{
+         height: 100vh;
+     }
+ }
+ /* Home Page */
+#index{
+    background-image: url(../img/astronomy-constellation-dark-1743375.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    height: 80vh;
+    margin-top: 20vh;
 }
+/* About Me Section */
 #about h1 p{
     
     color: #000000;
@@ -56,33 +62,35 @@ body{
    list-style-type:none;
 }
 
-
- .footer{
-     position: relative;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     margin: 0;
- }
-.th
-.jumbotron{
-    background-image: url(../img/denise-jans-1203943-unsplash.jpg);
-    background-size: 100% 100%;
-    color: beige;
+.spin{
+    transition: 3s;
 }
 
- @media screen and (min-width:992px){
-     #about,#contact,#project{
-         height: 100vh;
-     }
- }
+.spin:hover{
+    transform: rotateY(360deg);
+}
+
+
+/* skills */
+.jumbotron{
+    height: 40vh;
+    background-image: url(../img/photo-1512314889357-e157c22f938d.jpg);
+    background-size: 100% 100%;
+}
+
+.font{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+/* Projects */
 .thumb{
     background-color: #FFFFFF;
     border-radius: 5px;
     color: #000000;
     padding: 5px;
 }
-.emg{
+.first-image{
     background-image: url(../img/restaurant-demo.png);
     background-size: cover;
     height: 214px;
@@ -91,10 +99,10 @@ body{
     justify-content:center;
     align-items:center;
 }
-.emg2{
+.pet-image{
     background-image: url(../img/pet-demo.png);
 }
-.emg3{
+.web-image{
     background-image: url(../img/first.png);
 }
 .pic{
@@ -103,12 +111,12 @@ body{
     max-width: 100%;
     height: auto;
 }
-.hov{
+.hov-tag{
     z-index: 2;
     display:none;
 }
 
-.emg:hover .hov{
+.first-image:hover .hov-tag{
     display: inline-block;
 }
 .btn-primary,.btn-default,.caption{
@@ -116,11 +124,4 @@ body{
     margin-left: 10px;
 }
 
-.spin{
-    transition: 3s;
-}
-
-.spin:hover{
-    transform: rotateY(360deg);
-}
 
